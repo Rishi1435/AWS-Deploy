@@ -1,0 +1,19 @@
+package com.devops.jenkins;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@RestController
+public class CseController {
+
+    @GetMapping("/home")
+    public String disk() {
+        return "Welcome to CSE Jenkins";
+    }
+
+    @GetMapping("/cse")
+    public String disk2() {
+        return "Welcome to Aditya University";
+    }
+    
+}
