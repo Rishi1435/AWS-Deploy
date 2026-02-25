@@ -8,7 +8,7 @@ public class CseController {
 
     @GetMapping("/home")
     public String disk() {
-        return "Welcome to CSE Jenkins Home Screen";
+        return "Welcome to CSE Jenkins Home Screen, Welcome to Home Screen";
     }
 
     @GetMapping("/cse")
